@@ -45,8 +45,7 @@ docker and docker-compose installed, then grab the RequestBin source using git:
 Go into the project directory and then build and start the containers
 
 ```
-$ sudo docker-compose build
-$ sudo docker-compose up -d
+$ docker-compose up --build
 ```
 
 Your own private RequestBin will be running on this server.
